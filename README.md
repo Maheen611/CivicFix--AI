@@ -415,27 +415,6 @@ The prototype should clearly label:
 
 ---
 
-## ⚙️ Installation
-
-The installation steps depend on the final implementation stack.
-
-A typical Python backend setup may look like:
-
-```bash
-# Clone the repository
-git clone https://github.com/your-username/civicfix-ai.git
-
-# Enter the project directory
-cd civicfix-ai
-
-# Create a virtual environment
-python -m venv venv
-
-# Activate the environment on Windows
-venv\Scripts\activate
-
-# Activate the environment on macOS/Linux
-source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
@@ -445,25 +424,6 @@ uvicorn app.main:app --reload
 ```
 
 Replace the commands and folder paths with the actual project structure after implementation.
-
----
-
-## 🔑 Environment Variables
-
-Do not commit API keys or private credentials to GitHub.
-
-Example `.env` configuration:
-
-```env
-APP_ENV=development
-DATABASE_URL=sqlite:///./civicfix.db
-AI_PROVIDER=
-AI_MODEL=
-MAP_PROVIDER=
-RAG_DATA_PATH=
-```
-
-Use a `.env.example` file in the repository and add `.env` to `.gitignore`.
 
 ---
 
@@ -484,11 +444,6 @@ Contributions and suggestions are welcome.
 Choose an appropriate open-source license before publishing the repository. If no license has been selected, the project remains subject to applicable copyright rules.
 
 ---
-
-## 👩‍🎓 Author
-
-**Maheen**  
-Nawab Shah Alam Khan College of Engineering and Technology
 
 ### Project Theme
 
