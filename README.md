@@ -1,4 +1,4 @@
-# CivicFix--AI
+
 # CivicFix AI 🌍
 
 ### AI-Powered Smart City Grievance & Sustainability Platform
