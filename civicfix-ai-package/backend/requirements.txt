@@ -1,0 +1,10 @@
+Flask>=3.0
+flask-cors>=4.0
+Pillow>=10.0
+
+# Optional AI providers for /api/generate-complaint — only imported if their
+# environment variables are set. Without either, the endpoint automatically
+# falls back to the built-in template generator, so the app works with zero
+# extra setup.
+anthropic>=0.34.0       # used if ANTHROPIC_API_KEY is set
+ibm-watsonx-ai>=1.1.0   # used if WATSONX_API_KEY + WATSONX_PROJECT_ID are set
